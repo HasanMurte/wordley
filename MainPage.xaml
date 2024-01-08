@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wordley.MainPage">
+    
+    <StackLayout>
+        <Label Text="Wordle!" FontSize="24" HorizontalOptions="Center" Grid.Row="0"/>
+        <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            
+ 
+            <Grid.RowDefinitions>
+                <!-- Define your RowDefinitions here -->
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+
+
+            </Grid.RowDefinitions>
+            
+            
+            <Grid.ColumnDefinitions>
+                <!-- Define your ColumnDefinitions here -->
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Entry controls for each box -->
+            <!-- Define your Entry controls here -->
+            <Entry x:Name="Box1" Grid.Row="1" Grid.Column="0" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box2" Grid.Row="1" Grid.Column="1" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box3" Grid.Row="1" Grid.Column="2" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box4" Grid.Row="1" Grid.Column="3" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box5" Grid.Row="1" Grid.Column="4" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box6" Grid.Row="2" Grid.Column="0" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box7" Grid.Row="2" Grid.Column="1" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box8" Grid.Row="2" Grid.Column="2" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box9" Grid.Row="2" Grid.Column="3" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box10" Grid.Row="2" Grid.Column="4" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box11" Grid.Row="3" Grid.Column="0" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box12" Grid.Row="3" Grid.Column="1" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box13" Grid.Row="3" Grid.Column="2" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box14" Grid.Row="3" Grid.Column="3" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box15" Grid.Row="3" Grid.Column="4" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box16" Grid.Row="4" Grid.Column="0" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box17" Grid.Row="4" Grid.Column="1" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box18" Grid.Row="4" Grid.Column="2" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box19" Grid.Row="4" Grid.Column="3" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box20" Grid.Row="4" Grid.Column="4" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box21" Grid.Row="5" Grid.Column="0" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box22" Grid.Row="5" Grid.Column="1" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box23" Grid.Row="5" Grid.Column="2" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box24" Grid.Row="5" Grid.Column="3" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+            <Entry x:Name="Box25" Grid.Row="5" Grid.Column="4" MaxLength="1" Placeholder="" TextChanged="Box_TextChanged"/>
+
+        </Grid>
+
+        <Button Text="Cheak Answer" Clicked="SubmitWords_Clicked" HorizontalOptions="Center" Margin="0,20"/>
+      
+    </StackLayout>
+
+</ContentPage>
